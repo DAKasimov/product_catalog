@@ -41,7 +41,13 @@ export default function Header() {
     }
 
     const getNavItems = () => {
-        return siteConfig.navItems.map((item) => {
+        return siteConfig.navItems.filter((item)=>{
+            if (item.href === '/ingredients') {
+                return isAuth
+            }
+            return true
+        })
+            .map((item) => {
             const isActive = pathname === item.href
             return <NavbarItem key={item.href}>
                 <Link
@@ -68,7 +74,7 @@ export default function Header() {
     return (
         <Navbar style={{height: layoutConfig.headerHeight}}>
             <NavbarBrand>
-                <Link href="/public" className='flex gap-1'>
+                <Link href="/src/app/public" className='flex gap-1'>
                     <Logo/>
                     <p className="font-bold text-inherit">{siteConfig.title}</p>
                 </Link>
