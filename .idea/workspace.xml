@@ -4,36 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eb95519-5f5d-4a16-8558-a7bad81ce48c" name="Changes" comment="2.0">
-      <change afterPath="$PROJECT_DIR$/src/actions/ingredient.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/recipe.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(protected)/ingredients/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(protected)/recipes/[id]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(protected)/recipes/new/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/error/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/recipe-card.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/tables/ingredients.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/select-options.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forms/ingredients.form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forms/recipe.form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middleware.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/ingredient.store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/recipe.store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/ingredient.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/recipe.ts" afterDir="false" />
+    <list default="true" id="1eb95519-5f5d-4a16-8558-a7bad81ce48c" name="Changes" comment="3.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/register.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/register.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(public)/about/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(public)/about/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/ingredients/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(protected)/ingredients/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/ingredients/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/layout/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/layout/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hoc/app-loader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/app-loader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schema/zod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/schema/zod.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,10 +54,11 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
     &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/учёба/Магистратура/product_catalog&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/учёба/Магистратура/магистерская/product_catalog&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -92,7 +66,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\учёба\\Магистратура\\product_catalog\\node_modules\\typescript\\lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\учёба\\Магистратура\\магистерская\\product_catalog\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -149,7 +123,11 @@
       <workItem from="1774342663996" duration="35000" />
       <workItem from="1774359044468" duration="7676000" />
       <workItem from="1774369576172" duration="525000" />
-      <workItem from="1774377248283" duration="13195000" />
+      <workItem from="1774377248283" duration="13241000" />
+      <workItem from="1774431022675" duration="32000" />
+      <workItem from="1775574421398" duration="677000" />
+      <workItem from="1777747546140" duration="734000" />
+      <workItem from="1777798874546" duration="2786000" />
     </task>
     <task id="LOCAL-00001" summary="start project">
       <option name="closed" value="true" />
@@ -199,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774132679072</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="3.0">
+      <option name="closed" value="true" />
+      <created>1774395105964</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1774395105964</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,10 +197,14 @@
       </list>
     </option>
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="next.config.ts" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start project" />
     <MESSAGE value="1.0" />
     <MESSAGE value="2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.0" />
+    <MESSAGE value="3.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.0" />
   </component>
 </project>

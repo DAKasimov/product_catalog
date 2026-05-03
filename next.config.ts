@@ -5,7 +5,11 @@ const nextConfig: NextConfig = {
         remotePatterns : [
             {
                 protocol: 'https',
-                hostname: 'eda.ru',
+                hostname: '**',
+            },
+            {
+                protocol: 'http',
+                hostname: '**',
             }
         ]
     }
